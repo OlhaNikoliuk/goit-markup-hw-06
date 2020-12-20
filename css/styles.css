@@ -508,7 +508,7 @@ img {
   display: flex;
   align-items: baseline;
 
-  padding: 60px 0;
+  padding: 60px 15px;
 }
 
 .footer {
@@ -526,6 +526,7 @@ img {
 
 .footer-left-side {
   margin-right: 70px;
+  padding-right: 15px;
 }
 
 .address-link {
@@ -855,6 +856,7 @@ textarea::-webkit-input-placeholder {
 
 .policy-link {
   color: var(--accent-color);
+  text-decoration-skip-ink: none;
 }
 
 .modal .button {
